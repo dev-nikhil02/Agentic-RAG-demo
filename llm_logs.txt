@@ -244,3 +244,14 @@ Sources Used:
   - Source File: google_stock_prices.csv, Chunk ID: 2128
 
 
+--- LLM Run: 2025-08-31 23:46:31.239851 ---
+User Query: Open stock price on 2020
+Collection Used: stock_prices
+Confidence level: False
+Answer:  The open stock price on 2020-02-20 was 75.9505. 
+Sources Used:
+  - Source File: google_stock_prices.csv, Chunk ID: 1749
+  - Source File: google_stock_prices.csv, Chunk ID: 2073
+  - Source File: google_stock_prices.csv, Chunk ID: 2027
+
+
