@@ -1,24 +1,7 @@
-# UI
-streamlit==1.47.1
-
-# RAG + vector DB
-langchain==0.3.27
-chromadb==0.4.0
-sentence-transformers==2.2.2
-
-# LLM
-cohere==5.9.0
-
-# Data handling
-pandas==2.3.1
-numpy==2.3.2
-PyMuPDF==1.26.4
-scikit-learn==1.7.1
-
-# Env & HTTP
-python-dotenv==1.0.0
-requests==2.32.4
-
-# Optional for plotting or additional utils
-matplotlib==3.10.3
-seaborn==0.13.2
+streamlit>=1.25.0
+langchain>=0.1.0
+langchain-community>=0.0.30
+sentence-transformers>=2.2.2
+chromadb>=0.4.22
+cohere>=4.44
+python-dotenv>=1.0.0
