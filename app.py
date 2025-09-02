@@ -3,12 +3,15 @@ from rag_pipeline import run
 
 st.title("Agentic RAG System Demo")
 
-st.write(
-    "This demo showcases a Retrieval-Augmented Generation (RAG) system build for Q&A on documents. "
-    "Enter your financial or stock-related question on googel below, and the agent will retrieve relevant context and generate an answer."
-    "Vector db of the document is stored at backend for semantic search and retrievel."
-    "This model mainly focus on contextual retrieval from confidential data."
-)
+st.markdown("""
+<span style='font-size:18px'>
+<ul>
+<li>Ask finance or stock questions about your documents.</li>
+<li>The agent finds context and answers using a vector database.</li>
+<li>Designed for secure, context-aware Q&amp;A.</li>
+</ul>
+</span>
+""", unsafe_allow_html=True)
 user_query = st.text_input("Enter your query:")
 
 if st.button("Get Answer") and user_query:
